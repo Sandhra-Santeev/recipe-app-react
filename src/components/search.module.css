@@ -1,0 +1,19 @@
+.searchContainer{
+   margin : 1.5rem auto;
+   max-width: 500px;
+ 
+   position: relative;
+   padding: 2rem; 
+
+}
+.input{
+    border:1px solid #393e46 ;
+    /* border-bottom: 1px solid #e3e4dc; */
+    padding: 1rem ;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #393e46;
+    border-radius: 2rem;
+  
+}

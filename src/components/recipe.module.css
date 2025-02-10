@@ -1,0 +1,105 @@
+
+
+.recipeContainer {
+    width: 80%;
+    max-width: 500px;
+    background: linear-gradient(135deg, #ff9a8b, #ff6a88, #ff99ac);
+    color: black;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 30px auto;
+    animation: fadeIn 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    /* object-fit: cover; */
+    /* max-height: 350px; */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.recipeDetails {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    font-size: 15px;
+ 
+  
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.recipeDetails li {
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+ 
+}
+
+.recipeDetails li:last-child {
+    border-bottom: none;
+}
+
+
+.section {
+    background: black;
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 12px;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(8px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.section h1 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    color:#ff6a88;
+    text-transform: uppercase;
+    border-left: 5px solid #ff6a88;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.section p {
+    padding: 10px 15px;
+    color: #ff6a88;
+    font-size: 17px;
+    line-height: 1.6;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    margin: 8px 0;
+    transition: background 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.section p:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
